@@ -1,0 +1,22 @@
+.option {
+    width: 100%;
+    padding: 4px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    color: #1f2326;
+    cursor: pointer;
+    background-color: #fff;
+
+    &:hover {
+        background-color: #d4edff;
+    }
+
+    &__checkbox {
+        margin: 0;
+        border: 1px solid #b8d1e5;
+        background-color: #fff;
+        cursor: pointer;
+    }
+}

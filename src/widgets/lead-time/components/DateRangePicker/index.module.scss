@@ -1,0 +1,29 @@
+.date-setting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #b8d1e5;
+  height: 33px;
+  gap: 16px;
+
+  &__range {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+    align-items: center;
+  }
+
+  &__option {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    cursor: pointer;
+
+    &-check {
+      margin: 0;
+      cursor: pointer;
+    }
+  }
+}

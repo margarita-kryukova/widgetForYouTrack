@@ -1,0 +1,25 @@
+{
+  "name": "lead-time",
+  "title": "Lead time",
+  "description": "Медианное время движения фичи",
+  "vendor": {
+    "name": "Крюкова М.С.",
+    "url": "https://sokolov.ru/"
+  },
+  "icon": "icon.svg",
+  "widgets": [
+
+    {
+      "key": "lead-time",
+      "name": "Lead time",
+      "indexPath": "lead-time/index.html",
+      "extensionPoint": "DASHBOARD_WIDGET",
+      "iconPath": "lead-time/widget-icon.svg",
+      "description": "Медианное время движения фичи",
+      "defaultDimensions" : {
+        "height" : "2fr",
+        "width" : "4fr"
+      }
+    }
+  ]
+}

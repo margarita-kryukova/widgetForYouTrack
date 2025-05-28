@@ -1,0 +1,55 @@
+.wrapper {
+  position: relative;
+  margin-top: 16px;
+  padding: 8px;
+  height: 416px;
+  width: 21%;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 14px;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+
+  &__item {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+  }
+}
+
+.btn-close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}

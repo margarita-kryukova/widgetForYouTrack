@@ -1,0 +1,15 @@
+.item {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    cursor: pointer;
+    text-align: left;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    color: #0f5b99;
+
+    &:hover {
+        color: #ff008c;
+    }
+}
