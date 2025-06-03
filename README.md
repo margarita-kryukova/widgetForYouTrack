@@ -16,36 +16,6 @@
 
 ---
 
-## Как установить
-
-1. Склонируйте репозиторий или скачайте архив
-   ```bash
-   git clone https://github.com/margarita-kryukova/widgetForYouTrack.git
-   cd widgetForYouTrack
-   ```
-
-2. Установите зависимости:
-   ```bash
-   npm install
-   ```
-
-3. Запустите виджет в режиме разработки:
-   ```bash
-   npm run start
-   ```
-
-4. Следуйте инструкции из [YouTrack DevPortal](https://www.jetbrains.com/help/youtrack/devportal/) для публикации и использования собственного виджета.
-
----
-
-## Использование
-
-1. Загрузите виджет в свою систему YouTrack через интерфейс "Приложения" (Apps).
-2. Добавьте виджет на дашборд.
-3. Настройте фильтры и параметры отображения под ваши задачи.
-
----
-
 ## Примеры виджетов
 
 - **LeadTime Widget**  
